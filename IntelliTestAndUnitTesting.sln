@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTestAndUnitTesting", "IntelliTestAndUnitTesting\IntelliTestAndUnitTesting.csproj", "{D4955988-72EF-4A57-8FDE-9C3A4134487F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTestAndUnitTesting.AutoFixtureTests", "CustomUnitTests\IntelliTestAndUnitTesting.AutoFixtureTests.csproj", "{B4487236-9F3D-4076-82B1-13B829B84CE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTestAndUnitTesting.ShouldlyTests", "IntelliTestAndUnitTesting.ShouldlyTests\IntelliTestAndUnitTesting.ShouldlyTests.csproj", "{2C49F8D8-051F-4C58-87E6-0BA5EE9383E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTestAndUnitTesting.DotMemoryTests", "IntelliTestAndUnitTesting.DotMemoryTests\IntelliTestAndUnitTesting.DotMemoryTests.csproj", "{D78C9C57-21C6-4762-AFD0-E2D0E95BA2CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTestAndUnitTesting.NUnit3Tests", "IntelliTestAndUnitTesting.NUnit3Tests\IntelliTestAndUnitTesting.NUnit3Tests.csproj", "{4C86030E-CA96-4989-A106-57742E12BF24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTestAndUnitTesting.ApprovalTests", "IntelliTestAndUnitTesting.ApprovalTests\IntelliTestAndUnitTesting.ApprovalTests.csproj", "{8C04273B-9133-472E-B551-D3CA5B0E94F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4955988-72EF-4A57-8FDE-9C3A4134487F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4955988-72EF-4A57-8FDE-9C3A4134487F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4955988-72EF-4A57-8FDE-9C3A4134487F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4955988-72EF-4A57-8FDE-9C3A4134487F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4487236-9F3D-4076-82B1-13B829B84CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4487236-9F3D-4076-82B1-13B829B84CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4487236-9F3D-4076-82B1-13B829B84CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4487236-9F3D-4076-82B1-13B829B84CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C49F8D8-051F-4C58-87E6-0BA5EE9383E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C49F8D8-051F-4C58-87E6-0BA5EE9383E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C49F8D8-051F-4C58-87E6-0BA5EE9383E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C49F8D8-051F-4C58-87E6-0BA5EE9383E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D78C9C57-21C6-4762-AFD0-E2D0E95BA2CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78C9C57-21C6-4762-AFD0-E2D0E95BA2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78C9C57-21C6-4762-AFD0-E2D0E95BA2CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78C9C57-21C6-4762-AFD0-E2D0E95BA2CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C86030E-CA96-4989-A106-57742E12BF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C86030E-CA96-4989-A106-57742E12BF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C86030E-CA96-4989-A106-57742E12BF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C86030E-CA96-4989-A106-57742E12BF24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C04273B-9133-472E-B551-D3CA5B0E94F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C04273B-9133-472E-B551-D3CA5B0E94F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C04273B-9133-472E-B551-D3CA5B0E94F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C04273B-9133-472E-B551-D3CA5B0E94F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
