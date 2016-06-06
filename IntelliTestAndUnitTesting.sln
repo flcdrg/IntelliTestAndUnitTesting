@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTestAndUnitTesting.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTestAndUnitTesting.NBench", "IntelliTestAndUnitTesting.NBench\IntelliTestAndUnitTesting.NBench.csproj", "{C3582A3E-9208-4A23-BCC4-E38F67C19289}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTestAndUnitTesting.WhiteWpfApp", "IntelliTestAndUnitTesting.WhiteWpfApp\IntelliTestAndUnitTesting.WhiteWpfApp.csproj", "{9F7809AC-26CD-47FA-9DF1-8C91652A3358}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{C3582A3E-9208-4A23-BCC4-E38F67C19289}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3582A3E-9208-4A23-BCC4-E38F67C19289}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3582A3E-9208-4A23-BCC4-E38F67C19289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7809AC-26CD-47FA-9DF1-8C91652A3358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7809AC-26CD-47FA-9DF1-8C91652A3358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7809AC-26CD-47FA-9DF1-8C91652A3358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7809AC-26CD-47FA-9DF1-8C91652A3358}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
