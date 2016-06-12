@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTestAndUnitTesting.N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTestAndUnitTesting.WhiteWpfApp", "IntelliTestAndUnitTesting.WhiteWpfApp\IntelliTestAndUnitTesting.WhiteWpfApp.csproj", "{9F7809AC-26CD-47FA-9DF1-8C91652A3358}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{F19C370C-3387-4992-918A-E7F93EEA2CC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTestAndUnitTesting.Mocking", "IntelliTestAndUnitTesting.Mocking\IntelliTestAndUnitTesting.Mocking.csproj", "{3EBF8C15-0FE7-4037-B557-6018D1091DC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,8 +73,15 @@ Global
 		{9F7809AC-26CD-47FA-9DF1-8C91652A3358}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F7809AC-26CD-47FA-9DF1-8C91652A3358}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F7809AC-26CD-47FA-9DF1-8C91652A3358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EBF8C15-0FE7-4037-B557-6018D1091DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBF8C15-0FE7-4037-B557-6018D1091DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBF8C15-0FE7-4037-B557-6018D1091DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBF8C15-0FE7-4037-B557-6018D1091DC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F7809AC-26CD-47FA-9DF1-8C91652A3358} = {F19C370C-3387-4992-918A-E7F93EEA2CC7}
 	EndGlobalSection
 EndGlobal

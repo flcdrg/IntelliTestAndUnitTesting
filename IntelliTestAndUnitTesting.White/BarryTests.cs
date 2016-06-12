@@ -14,7 +14,7 @@ namespace IntelliTestAndUnitTesting.White
         [Fact]
         public void ChoosingThreeFromList_EnablesButton()
         {
-            
+            // Arrange
             var applicationPath = @"..\..\..\IntelliTestAndUnitTesting.WhiteWpfApp\bin\Debug\IntelliTestAndUnitTesting.WhiteWpfApp.exe";
             Application application = Application.Launch(applicationPath);
             Window window = application.GetWindow("MainWindow", InitializeOption.NoCache);
@@ -22,9 +22,11 @@ namespace IntelliTestAndUnitTesting.White
             var button = window.Get<Button>(SearchCriteria.ByAutomationId("MyButton"));
             var list = window.Get<ComboBox>(SearchCriteria.ByAutomationId("MyList"));
 
+            // Act
             list.KeyIn(KeyboardInput.SpecialKeys.DOWN);
             list.KeyIn(KeyboardInput.SpecialKeys.DOWN);
 
+            // Assert
             Assert.True(button.Enabled);
         }
     }

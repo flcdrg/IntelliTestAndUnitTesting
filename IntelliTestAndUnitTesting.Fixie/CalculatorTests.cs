@@ -3,6 +3,7 @@
 
 namespace IntelliTestAndUnitTesting.Fixie
 {
+    // Run with Test Explorer
     public class CalculatorTests
     {
         public void ShouldAdd()
@@ -17,8 +18,10 @@ namespace IntelliTestAndUnitTesting.Fixie
             calculator.Subtract(5, 3).ShouldBe(2);
         }
 
-        // parameterised
 
+        #region Parameterised Tests
+
+/*
         [Input(2, 3, 5)]
         [Input(3, 5, 8)]
         public void ShouldAdd2(int a, int b, int expectedSum)
@@ -35,5 +38,8 @@ namespace IntelliTestAndUnitTesting.Fixie
             var calculator = new Calculator();
             calculator.Subtract(a, b).ShouldBe(expectedDifference);
         }
+
+*/
+        #endregion
     }
 }
