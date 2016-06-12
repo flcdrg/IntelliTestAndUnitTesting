@@ -25,6 +25,8 @@ namespace IntelliTestAndUnitTesting
 
             if (File.Exists(filename))
                 File.Delete(filename);
+
+            // make sure directory exists
             image.Save(filename, ImageFormat.Jpeg);
         }
     }
