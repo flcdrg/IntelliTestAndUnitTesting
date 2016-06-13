@@ -1,0 +1,1 @@
+﻿Copy C:\tmp\image.jpg .\IntelliTestAndUnitTesting.ApprovalTests\ApprovalExampleTest.MapImages.approved.jpg

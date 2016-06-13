@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using NBench;
-using NBench.Tracing;
 using Ploeh.AutoFixture;
 
 namespace IntelliTestAndUnitTesting.NBench
