@@ -1,4 +1,6 @@
-﻿using Xunit;
+﻿using System;
+using NSubstitute;
+using Xunit;
 
 namespace IntelliTestAndUnitTesting.Mocking
 {
