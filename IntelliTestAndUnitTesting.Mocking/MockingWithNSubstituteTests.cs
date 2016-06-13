@@ -8,7 +8,7 @@ namespace IntelliTestAndUnitTesting.Mocking
         public void Test()
         {
             // Arrange
-            const int orderId = 3;
+            const int orderId = 481; // Order Date 2013-01-09
             var dataLayer = new DataLayer();
             var sut = new BusinessService(dataLayer);
 
@@ -16,7 +16,7 @@ namespace IntelliTestAndUnitTesting.Mocking
             var result = sut.CalculateShipping(orderId);
 
             // Assert
-            Assert.Equal(33, result);
+            Assert.Equal(11, result);
         }
     }
 }

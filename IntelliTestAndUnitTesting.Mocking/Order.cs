@@ -1,9 +1,12 @@
-﻿namespace IntelliTestAndUnitTesting.Mocking
+﻿using System;
+
+namespace IntelliTestAndUnitTesting.Mocking
 {
     public class Order
     {
         public int Id { get; set; }
-        public string Address { get; set; }
-        public string OrderDetails { get; set; }
+        public DateTime OrderDate { get; set; }
+        public DateTime ExpectedDeliveryDate { get; set; }
+        public bool IsUndersupplyBackordered { get; set; }
     }
 }

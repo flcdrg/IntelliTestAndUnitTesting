@@ -1,8 +1,12 @@
-﻿namespace IntelliTestAndUnitTesting.Mocking
+﻿using System;
+
+namespace IntelliTestAndUnitTesting.Mocking
 {
     public class BusinessService
     {
         private readonly IDataLayer _dataLayer;
+        private static readonly DateTime Date1 = new DateTime(2013, 1, 10);
+        private static readonly DateTime Date2 = new DateTime(2013, 1, 17);
 
         public BusinessService(IDataLayer dataLayer)
         {
@@ -14,9 +18,9 @@
             Order order = _dataLayer.GetOrder(orderId);
 
             int shipping;
-            if (order.Address.Contains("Sydney"))
+            if (order.OrderDate <= Date1)
                 shipping = 10;
-            else if (order.Address.Contains("Adelaide"))
+            else if (order.OrderDate <= Date2)
                 shipping = 15;
             else
                 shipping = 30;
