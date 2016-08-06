@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTestAndUnitTesting", "IntelliTestAndUnitTesting\IntelliTestAndUnitTesting.csproj", "{D4955988-72EF-4A57-8FDE-9C3A4134487F}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{F19C370C-3387-4992-918A-E7F93EEA2CC7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTestAndUnitTesting.Mocking", "IntelliTestAndUnitTesting.Mocking\IntelliTestAndUnitTesting.Mocking.csproj", "{3EBF8C15-0FE7-4037-B557-6018D1091DC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTestAndUnitTesting.FluentAssertions", "IntelliTestAndUnitTesting.FluentAssertions\IntelliTestAndUnitTesting.FluentAssertions.csproj", "{0A9E5B4E-E09C-48F7-8344-662F542D01F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{3EBF8C15-0FE7-4037-B557-6018D1091DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EBF8C15-0FE7-4037-B557-6018D1091DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EBF8C15-0FE7-4037-B557-6018D1091DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9E5B4E-E09C-48F7-8344-662F542D01F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9E5B4E-E09C-48F7-8344-662F542D01F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9E5B4E-E09C-48F7-8344-662F542D01F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9E5B4E-E09C-48F7-8344-662F542D01F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
